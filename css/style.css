@@ -1,6 +1,12 @@
 .row {
   background-color: blue;
 }
+nav {
+  background-color: #f8f9fa;
+}
+.container {
+  background-color: #f8f9fa;
+}
 .col {
   background-color: yellow;
 }
