@@ -1,0 +1,33 @@
+.row {
+  background-color: blue;
+}
+.col {
+  background-color: yellow;
+}
+.col-7 {
+  background-color: green;
+}
+.col-6 {
+  background-color: magenta;
+}
+.col-5 {
+  background-color: rgb(163, 57, 131);
+}
+.col-4 {
+  background-color: rgb(56, 156, 36);
+}
+.col-3 {
+  background-color: rgb(138, 60, 127);
+}
+.col-2 {
+  background-color: rgb(190, 199, 114);
+}
+.col-9 {
+  background-color: rgb(13, 174, 214);
+}
+.col-10 {
+  background-color: rgb(152, 207, 155);
+}
+.col-11 {
+  background-color: rgb(238, 199, 71);
+}
