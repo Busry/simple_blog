@@ -1,3 +1,6 @@
+aside {
+  background-color: yellow;
+}
 .mr-auto {
   margin-left: 30% !important;
 }
@@ -20,9 +23,34 @@ nav {
 .block {
   height: 10vh;
 }
-.article-img {
-  height: 20%;
+.block-img {
+  height: 40vh;
+  overflow: hidden;
 }
+.img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+#article-img {
+  height: auto;
+  max-width: 100%;
+}
+.img-responsive {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-image {
+  background-image: url("../imsges/mona-lisa.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+/* .aside {
+  overflow: scrow;
+} */
 .article-section {
   height: 80%;
 }
@@ -42,7 +70,7 @@ nav {
 /* form {
   background-color: yellow;
 } */
-.col-7 {
+.col- {
   background-color: green;
 }
 .col-6 {
@@ -66,6 +94,7 @@ nav {
 .col-10 {
   background-color: rgb(152, 207, 155);
 }
-.col-11 {
+.col-12 {
   background-color: rgb(238, 199, 71);
+  height: 60vh;
 }
