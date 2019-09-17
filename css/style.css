@@ -1,6 +1,6 @@
-aside {
+/* aside {
   background-color: yellow;
-}
+} */
 .mr-auto {
   margin-left: 30% !important;
 }
@@ -19,6 +19,9 @@ nav {
 }
 .card-img {
   border-radius: 15px;
+}
+.comment-img {
+  border-radius: 5%;
 }
 .block {
   height: 10vh;
