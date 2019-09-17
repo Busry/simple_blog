@@ -1,15 +1,28 @@
+.mr-auto {
+  margin-left: 30% !important;
+}
 .row {
   background-color: blue;
 }
 nav {
   background-color: #f8f9fa;
 }
+.post {
+  margin: 20px 0px 0px 10px;
+}
+/* ul {
+  background-color: green;
+} */
+
+/* div {
+  background-color: magenta;
+} */
 .container {
   background-color: #f8f9fa;
 }
-.col {
+/* form {
   background-color: yellow;
-}
+} */
 .col-7 {
   background-color: green;
 }
