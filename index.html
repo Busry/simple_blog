@@ -21,273 +21,161 @@
     <link rel="stylesheet" href="./css/-reset.css" />
     <link rel="stylesheet" href="./css/-debug.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Blog</title>
+    <link rel="stylesheet" href="./css/-private.css" />
+    <title>Home page</title>
   </head>
   <body>
-    <article class="container">
-      <header class="row container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#">Busry blog</a>
-
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
-              <li class="nav-item ">
-                <a class="nav-link " href="#" tabindex="-1">Post</a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input
-                class="form-control mr-sm-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button
-                class="btn btn-outline-success my-2 my-sm-0"
-                type="submit"
-              >
-                Search
-              </button>
-            </form>
-          </div>
-        </nav>
-      </header>
-      <!-- margin -->
+    <article class="container" id="housing">
+      <div>
+        <!-- header -->
+        <header class="row container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+              aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Busry blog</a>
+        
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                <li class="nav-item ">
+                  <a class="nav-link " href="#" tabindex="-1">Post</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </nav>
+        </header>
+        <!--// header-------------------- -->
+      </div>
+      <!-- correction div -->
       <div class="row block"></div>
-
-      <!-- content -->
-      <article class="row content">
-        <main class="col-7 container">
-           
-          <div class="row block-img">
-             
-              <img src="./imsges/guernica.jpg"  alt="Responsive image" class="img-fluid " />
-          
-          </div> 
-          <article class="row">
-            <h2>The title</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eos incidunt molestiae rerum maiores cumque. Quia, cumque. Quas veritatis, saepe mollitia unde nisi odit molestias asperiores voluptate minus sint pariatur!
-            </p>
-          </article>        
-          
-          <section class="row article-comment">
-            <div class="row container-fluid">
-              <div class="col-2 comment-img">img</div>
-              <div class="col-10">write coment</div>
+      <!-- correction div -->
+      <div id="center-div" class="row">
+        <main class="post-detail col-7">
+        
+          <div class="card border-success mb-3" style="width: 100%;">
+            <!--  -->
+            <div class="card-header bg-transparent border-success">
+              <img src="./images/guernica.jpg" class="img-fluid" alt="Responsive image">
             </div>
-            <div class="row  container-fluid">
-              <div class="col-8"></div>
-              <div class="col-2">edit</div>
-              <div class="col-2">delete</div>
+            <div class="card-body text-success">
+              <h5 class="card-title">Success card title</h5>
+              <i class="far fa-user">${post.author} </i>
+              &nbsp;
+              <i class="far fa-calendar-alt">sept 18th, 2019</i>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique soluta quaerat dolore adipisci repellat praesentium molestias minima commodi animi sint sequi fuga temporibus obcaecati dolores, voluptate libero architecto blanditiis facilis?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora esse non architecto, labore nobis, quas corrupti illo possimus reprehenderit impedit repellendus libero alias unde id autem, nostrum accusantium officia sequi?
+              </p>
             </div>
-          </section>
+            <!--        -->
+                    <div class="card-header bg-transparent border-success">
+                      <img src="./images/guernica.jpg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="card-body text-success">
+                      <h5 class="card-title">Success card title</h5>
+                      <i class="far fa-user">${post.author} </i>
+                      &nbsp;
+                      <i class="far fa-calendar-alt">sept 18th, 2019</i>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique soluta quaerat dolore adipisci repellat
+                        praesentium molestias minima commodi animi sint sequi fuga temporibus obcaecati dolores, voluptate libero architecto
+                        blanditiis facilis?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora esse non architecto, labore nobis, quas corrupti
+                        illo possimus reprehenderit impedit repellendus libero alias unde id autem, nostrum accusantium officia sequi?
+                      </p>
+                    </div>
+            <div class="card-footer bg-transparent border-success">
+              Footer
+            </div>
+          </div>
+       
         </main>
-        <aside class="col-5 overflow-auto justify-content-center aside">
-          <section class="row card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img
-                  src="./imsges/mona-lisa.jpg"
-                  class="card-img"
-                  alt="monalisa"
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">How to cook</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </p>
+        <aside id="content-main-post" class="posts col-5"> 
+          <!--  -->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="..." class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                      This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </section>
-          <section class="row card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img
-                  src="./imsges/the-starry-night.jpg"
-                  class="card-img"
-                  alt="the-starry-night"
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">How to cook</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </p>
+          <!--  -->
+            <div class="card mb-3" style="max-width: 540px;" >
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="..." class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                      This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </section>
-          <section class="row card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="./imsges/the-starry-night.jpg" class="card-img" alt="the-starry-night" />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">How to cook</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </p>
+          <!--  -->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="..." class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                      This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
                 </div>
               </div>
             </div>
-          </section>
-          <section class="row card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="./imsges/the-starry-night.jpg" class="card-img" alt="the-starry-night" />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">How to cook</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="row card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="./imsges/the-starry-night.jpg" class="card-img" alt="the-starry-night" />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">How to cook</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="row card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="./imsges/the-starry-night.jpg" class="card-img" alt="the-starry-night" />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">How to cook</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="row card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="./imsges/the-starry-night.jpg" class="card-img" alt="the-starry-night" />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">How to cook</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="row card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4">
-                <img src="./imsges/the-starry-night.jpg" class="card-img" alt="the-starry-night" />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">How to cook</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
+          <!--  -->
         </aside>
-      </article>
-      <!-- content -->
-      <footer class="row container">
-        <ul class="nav justify-content-center footer">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Facebook</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Instagram</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="fab fa-twitter-square"></i
-            ></a>
-          </li>
-        </ul>
-      </footer>
-    </article>
+      </div>
+      <div class="container">
+        <footer class="row container">
+          <ul class="nav justify-content-center footer">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Facebook</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-twitter-square"></i></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+
+      
+
+      
+
+     
     <!-- <div class="container">
       <div class="row" style="background-color:yellow">
         <div class="col" style="background-color:blue">
@@ -309,16 +197,17 @@
         </div>
       </div>
     </div> -->
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

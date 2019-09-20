@@ -1,0 +1,181 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "admin": 1,
+      "username": "busry",
+      "email": "minitext@gmail.com",
+      "password": "busari",
+      "role": "admin"
+    },
+    {
+      "username": "busry",
+      "email": "minitext@gmail,com",
+      "password": "busari",
+      "id": 2
+    },
+    {
+      "username": "aliyu",
+      "password": "aliu",
+      "email": "aliu@gmail.com",
+      "id": 3
+    },
+    {
+      "username": "mini",
+      "password": "alimatu",
+      "email": "halima@gmail.com",
+      "id": 4
+    },
+    {
+      "username": "minnhuy",
+      "email": "djasdklfjaepior@yahoo.com",
+      "password": "jkhfuifhiua",
+      "id": 5
+    },
+    {
+      "username": "djfhuifhfq",
+      "email": "jkdhfai@gmail.com",
+      "password": "kfjkjs",
+      "id": 6
+    },
+    {
+      "username": "dlskjfqeio",
+      "email": "",
+      "password": "da;fhiu",
+      "id": 7
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 11
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 12
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 13
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 14
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 15
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 16
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 17
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 18
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 19
+    },
+    {
+      "username": "a",
+      "password": "djfkljfqio",
+      "id": 20
+    },
+    {
+      "username": "who are you",
+      "password": "sucess21",
+      "id": 21
+    },
+    {
+      "username": "Busry",
+      "email": "djasdklfjaepior@yahoo.com",
+      "password": "jhhbhiujo",
+      "id": 22
+    },
+    {
+      "username": "tochukwu",
+      "email": "minitext@gmail.com",
+      "password": "fdeettrf",
+      "id": 23
+    },
+    {
+      "username": "fijeioeroa",
+      "email": "ksgo@mg.com",
+      "password": "krjaioer",
+      "id": 24
+    },
+    {
+      "username": "a",
+      "email": "ksgo@mg.com",
+      "password": "kjpioup",
+      "id": 25
+    },
+    {
+      "username": "fjidasoj",
+      "email": "minitext@gmail.com",
+      "password": "jugj",
+      "id": 26
+    },
+    {
+      "username": "sdiofjio",
+      "email": "efoiq0ro@gmail.com",
+      "password": "eioasji",
+      "id": 27
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "author": "mimi",
+      "title": "How to cook",
+      "imageUrl": "./images/the-starry-night.jpg",
+      "content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a lit",
+      "update": "Last updated 3 mins ago",
+      "publish": "2 march, 2019"
+    },
+    {
+      "id": 2,
+      "author": "Busry",
+      "title": "Reading",
+      "imageUrl": "./images/the-starry-night.jpg",
+      "content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a lit",
+      "update": "Last updated 8 mins ago",
+      "publish": "24 march, 2019"
+    }
+  ],
+  "profile": [
+    {
+      "name": "typicode",
+      "email": "minitext@gmail.com",
+      "role": "admin"
+    }
+  ]
+}
