@@ -133,7 +133,7 @@ header * {
 /* content */
 .content {
   width: 85%;
-  border: #ff1e00 solid 1px;
+  /* border: #ff1e00 solid 1px; */
   margin: 0px auto;
   margin-top: 10px;
 }
@@ -141,13 +141,13 @@ header * {
   width: 60%;
   float: left;
 
-  border: #3eb157 solid 1px;
+  /* border: #3eb157 solid 1px; */
 }
 .content-aside {
   width: 40%;
   float: left;
   /* height: 300px; */
-  border: #8109b1 solid 1px;
+  /* border: #8109b1 solid 1px; */
 }
 .content-aside .post {
   width: 95%;
