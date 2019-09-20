@@ -55,10 +55,10 @@
      <div class="posts-list">
       <h2 class="page-title">Create a posts</h2>
    
-      <form action="create.html" method="post">
+      <form action=""  id="post-form"  >
        <div>
         <label for="">Title</label>
-        <input type="text" name="title" id="" class="text-input">
+        <input type="text" name="title" id="article-title" class="text-input">
        </div>
        <div>
         <label for="">Body</label>
@@ -68,7 +68,7 @@
         <label for="">Image Url</label>
         <input type="url" name="imageUrl" id="imageUrl">
        </div>
-       <button type="submit" class="btn">Add post</button>
+       <input type="submit" id="post-article" placeholder="Add post" class="btn"/>
       </form>
    
      </div>
@@ -93,6 +93,7 @@
    <!-- // ck editor -->
    <script src="../js/jquery.js"></script>
   <script src="../js/main.js"></script>
+  <script src="../js/createpost.js"></script>
 </body>
 
 </html>

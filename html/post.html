@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+ <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+ <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+ <link rel="stylesheet" href="./css/-reset.css" />
+ <link rel="stylesheet" href="./css/-debug.css" />
+ <link rel="stylesheet" href="../css/style.css" />
+ <link rel="stylesheet" href="../css/post.css" />
+ <link rel="stylesheet" href="./css/-private.css" />
+ <title>create post</title>
+</head>
+
+<body>
+ <article class="container">
+  <header class="row container">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+     aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Busry blog</a>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+     <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+      <li class="nav-item ">
+       <a class="nav-link " href="#" tabindex="-1">Post</a>
+      </li>
+     </ul>
+     <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+       Search
+      </button>
+     </form>
+    </div>
+   </nav>
+  </header>
+  <!-- another header -->
+  <div class="row block"></div>
+
+
+  <!-- wrapper -->
+  <div class="post-wrapper">
+
+   <div class="post-content">
+    <div class="button-post">
+     <a class="btn" href="">Post</a>
+    </div>
+    <div class="posts-list">
+     <h2 class="page-title">Your posts</h2>
+   
+     <table>
+      <thead>
+       <th>SN</th>
+       <th>Title</th>
+       <th>Author</th>
+       <th colspan="3">Action</th>
+      </thead>
+      <tbody id="table-body">
+       <tr >
+        <td >1</td>
+        <td >this the first post</td>
+        <td > tomato</td>
+        <td><a href="#"  id="edit">Edit</a> </td>
+        <td><a href="#" class="remove delete" id="delete">Delete</a></td>
+        <td><a href="#"  id="publish">publish</a></td>
+       </tr>
+       <tr class="tr">
+        <td>2</td>
+        <td >this the second post</td>
+        <td > book</td>
+        <td><a href="#" >Edit</a> </td>
+        <td><a href="#" class="remove delete">Delete</a></td>
+        <td><a href="#" >publish</a></td>
+       </tr>
+        <tr >
+         <td class="tr">1</td>
+         <td >this the first post</td>
+         <td > tomato</td>
+         <td><a href="#"  id="edit">Edit</a> </td>
+         <td><a href="#" class="remove delete" id="delete">Delete</a></td>
+         <td><a href="#"  id="publish">publish</a></td>
+        </tr>
+      </tbody>
+     </table>
+     <div class="container-fluid">
+      <div class="col-2">1</div>
+      <div class="col-2">this the second post</div>
+      <div class="col-2">title</div>
+      <div class="col-2">content </div>
+
+     </div>
+   
+    </div>
+   </div>
+   
+   </div>
+
+
+
+   <!--// wrapper -->
+  </div>
+  <!--// forms -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+   integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+   integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <!-- ck editor  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- ck editor  -->
+  <script src="https://cdn.ckeditor.com/ckeditor5/12.4.0/classic/ckeditor.js"></script>
+  <!-- // ck editor -->
+
+  <!-- // ck editor -->
+  <script src="../js/jquery.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/post.js"></script>
+  
+</body>
+
+</html>
